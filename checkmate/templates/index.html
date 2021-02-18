@@ -1,0 +1,27 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/508e313dd2.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+    <title>Checkmate | A state of the Art Fact-Checker</title>
+</head>
+<body id="bg" style="background-image: url('{% static 'bg2.webp' %}')">
+    <div id="bg"></div>
+    <div class="layer" style="text-align: center;">
+        <h1> <i class="fas fa-chess-king"></i><br>CHECKMATE </h1>
+        <h5>A state of the Art Fact-Checker</h5>
+
+    </div>
+    <div class="search-box">
+        <input class="search-txt"  type="text" name="" placeholder="Please enter you text here..">
+        <a href="#" class="search-btn">
+            <i class="fas fa-search"></i>
+        </a>
+    </div>
+
+</body>
+</html>
